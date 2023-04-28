@@ -1,16 +1,22 @@
-html {
-  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+nav {
+  background-color: steelblue;
+  padding: 10px;
 }
-
+nav a{
+  color: white;
+  display: block;
+  padding: 20px;
+}
 h1 {
-  font-size: 60px;
-  text-align: center;
+  color: steelblue;
 }
-
-p,
-li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+p {
+  padding:10px;
 }

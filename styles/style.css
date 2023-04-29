@@ -20,3 +20,31 @@ img {
 p {
   padding:10px;
 }
+main {
+  max-width: 860px; 
+}
+aside {
+  margin: 20px; 
+  border: 1.6px solid steelblue;
+  padding: 1.6px;
+  background-color: white;
+  color: wheat;
+}
+
+aside img{
+  width: 200px;
+  height: auto;
+}
+
+main img{
+  width: 200px;
+  height: auto;
+}
+
+p{ padding:0;}
+
+footer{
+  margin: top 16px; /*I could have used 1em*/
+  border-top: 1px soid whitesmoke;
+  text-align: center;
+}

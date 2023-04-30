@@ -1,6 +1,95 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans"
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 :root {
-    --primary-color: #374C80;
-    --secondary-color: #
+  --primary-color: #374C80;
+  --secondary-color: #fff;
+  --accent1-color: #7A5195;
+  --accent2-color: #B7416E;
+  
+  --heading-font: 'Open Sans', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
+
+  --nav-background-color: #87416E;
+  --nav-link-color: #98798E;
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: #87416E;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.color {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.accent1-color {
+  background-color: var(--accent1-color);
+}
+
+.accent2-color {
+  background-color: var(--accent2-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--nav-background-color);
+  padding: 1em;
+  margin-top: 2em;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+  padding: 0.5em;
+  border-radius: 0.25em;
 }

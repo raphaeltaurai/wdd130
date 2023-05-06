@@ -77,7 +77,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--nav-background-color);
+  background-color: wheat;
   padding: 1em;
   margin-top: 2em;
 }

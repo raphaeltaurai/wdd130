@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 
 :root {
-  --primary-color: #374C80;
-  --secondary-color: #fff;
-  --accent1-color: #7A5195;
+  --primary-color: #007bff;
+  --secondary-color: #ebf5fd;
+  --accent1-color: #ffc107;
   --accent2-color: #B7416E;
-  
-  --heading-font: 'Open Sans', sans-serif;
-  --paragraph-font: 'Open Sans', sans-serif;
-
   --nav-background-color: #87416E;
   --nav-link-color: #98798E;
   --nav-hover-link-color: #fff;
@@ -16,7 +14,7 @@
 }
 
 body {
-  font-family: var(--paragraph-font);
+  font-family: Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: var(--primary-color);
@@ -24,10 +22,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  font-weight: bold;
-  color: var(--primary-color);
-  margin: 0.5em 0;
+    font-family: 'Lukiest Guy', cursive;
+    font-size: 2rem;
+    color: var(--primary-color);
 }
 
 h1 {

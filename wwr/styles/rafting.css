@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+/* Create root, we ought to study more on this as I am working on assumptions and refference to other sample files  */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #ebf5fd;
+  --accent1-color: #ffc107;
+  --accent2-color: #B7416E;
+  --nav-background-color: #87416E;
+  --nav-link-color: #98798E;
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: #87416E;
+}
+/* Select and Color fonts  */
+   h1, h2 {
+    font-family: 'Lukiest Guy', cursive;
+    font-size: 2rem;
+    color: var(--accent1-color);
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+  /* remove underlining */
+  .sociallinks a {
+    text-decoration: none;
+  }
+  
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+  }
+  
+  /* class selectors Hero */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: var(--primary-color);
+  text-shadow: 2px 2px 0px var(--secondary-color);
+}
+
+.hero article {
+  display:inline-block;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero article img {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+/*background color and opacity of the article */
+.hero article {
+  background-color: rgba(223, 221, 209, 0.17);
+  display:block;
+}
+
+section, section  {
+  position: relative;
+  clear: both;
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+}
+/* center the social links */
+.sociallinks img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

@@ -12,11 +12,46 @@
   --nav-hover-link-color: #fff;
   --nav-hover-background-color: #87416E;
 }
+
+.client-image {
+  float: right;
+  margin-left: 20px;
+}
+  /* This value should be adjusted based on the width of the client image and any desired spacing 
 /* Select and Color fonts  */
    h1, h2 {
     font-family: 'Lukiest Guy', cursive;
     font-size: 2rem;
     color: var(--accent1-color);
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+  
+  .logo {
+    justify-self: start;
+  }
+  
+  nav {
+    justify-self: end;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
   }
 
   p {
@@ -79,18 +114,76 @@ section, section  {
   position: relative;
   clear: both;
   padding: 1rem;
+  box-shadow: #87416E;
+}
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 50px;
+}
+
+.history-content {
+  grid-column: 1 / span 2;
+}
+
+.adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.adventures-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 /* Footer */
 footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  background-color: #807c7c3f;
 }
-/* center the social links */
-.sociallinks img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sociallinks a {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sociallinks a img {
+  margin-right: 5px;
 }

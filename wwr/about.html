@@ -8,13 +8,17 @@
     <link href="styles/rafting.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <img src="images/logo.jpeg" alt="Water Rafting Site Logo">
-        <nav>
-            <a href="index.html">Main Page</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+    <header >
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Water Rafting Site Logo">
+        </div>
+        <nav class="flex">
+            <ul>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -29,16 +33,36 @@
         </div>
         <section>
             <h2>History</h2>
-            <p>Roosters Water Rafting Spot began in 2003, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas odio dolore sint tempora.
+            <div class="history-content">
+                <p>Roosters Water Rafting Spot began in 2003, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas odio dolore sint tempora.
                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat labore tempora hic minima quos omnis perferendis.</p>
+                 <p>Roosters Water Rafting Spot offers thrilling adventures for everyone. Our experienced guides will take you on a journey you'll never forget.</p>
+            </div>
         </section>
-        <section>
+        <section class="adventures">
             <h2>Adventure Awaits YOU!!!</h2>
-            <img src="images/rafting01.jpg" alt="The best waves">
-            <img src="images/rafting02.jpg" alt="Beautiful natural views">
-            <img src="images/rafting03.jpg" alt="Rocky spots">
-            <img src="images/rafting04.jpg" alt="Great landscapes">
-            <img src="images/rafting05.jpg" alt="A little bit of trouble 🤣">
+            <div class="adventures-content">
+                <figure>
+                    <img src="images/rafting01.jpg" alt="The best waves">
+                <figcaption>The Best Waves</figcaption>
+                </figure>   
+                <figure>
+                    <img src="images/rafting02.jpg" alt="Beautiful natural views">
+                    <figcaption>Beautiful natural views</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting03.jpg" alt="Rocky spots">
+                    <figcaption>Rocky spots</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting04.jpg" alt="Great landscapes">
+                    <figcaption>Great landscapes</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting05.jpg" alt="A little bit of trouble">
+                    <figcaption>A little bit of trouble 🤣</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>

@@ -46,7 +46,7 @@ img {
 }
 p {
   padding:10px;
-  width: 40 0;
+  width: 20em;
 }
 main {
   grid-column: 3/6;

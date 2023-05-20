@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WDD 130 | HTML Form - User Poll</title>
+    <link href="styles/poll-form.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> WDD 130| HTML - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact information</legend>
+                    <!-- User's full name using input of type text, id of "fullname" and name of "fullname" -->
+                <table>
+                    <tr>
+                        <div class="form-item column2">
+                        <td><label for="fullname">Full Name:</label></td>
+                        <td><input type="text" id="fullname" name="fullname"></td>
+                        </div>
+                    </tr>
+                    <!-- User's email address using input of type email, an id of "useremail", and a name property value of "useremail" -->
+                    <tr>
+                        <div class="form-item column2">
+                        <td><label for="usermail">Email:</label></td>
+                        <td><input type="email" id="usermail" name="usermail"></td>
+                        </div>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Questions </legend>
+                <table>
+                    <tr>
+                        <div class="form-item column1">
+                        <label for="browser">What is your favourite browser?</label>
+                        <select id="browser" name="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Firefox">Firefox</option>
+                        </select>
+                        </div>
+                    </tr>
+                <tr>
+                    <div class="form-item column1">
+                    <td><label for="pet">Do you have a household pet?</label></td>
+                    <td><input type="checkbox" id="pet" name="pet"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <td><label for="feedback">List the places you have lived:</label></td>
+                    <td><textarea id="feedback" name="feedback" rows="4" placeholder="Harare Zimbabwe, Johannesburg South Africa, Lusaka Zambia, Gaborone Botswana"></textarea></td>
+                </tr>
+                </table>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+            
+    </main>
+    </body>
+<footer>
+    <p>©2023 | HTML Form - User Poll Activity| Raphael Shawn Taurai🤓</p>
+</footer>
+</html>

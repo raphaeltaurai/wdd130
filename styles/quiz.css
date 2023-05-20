@@ -53,6 +53,13 @@ body {
     border: none;
   }
   
+  img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
   button[type='submit'] {
     background-color: rgb(21, 42, 226);
     color: white;
@@ -67,9 +74,11 @@ body {
     background-color: #555;
   }
   
-  img {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  footer{
+    margin:1rem auto;
+    width: 600px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    text-align: center;
   }
+ 

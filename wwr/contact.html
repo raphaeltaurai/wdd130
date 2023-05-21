@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Document</title>
     <link href="styles/rafting.css" rel="stylesheet">
 </head>
 <body>
@@ -22,45 +22,61 @@
         </nav>
     </header>
     <main>
-        <h1> Perfect stop for a Raft</h1>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Class Hero Photo">
-            <h1>Roosters Water Rafting Spot</h1>
-            <article>
-                <img src="images/HappyCst.jpg" alt="Happy Clients">
-                <p>A united team is a winning team. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloremque voluptas eveniet.
-                    , ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum.</p>
-            </article>
-        </div>
-        <h1>Contact Us</h1>
-        <div class="company-info">
-            <p>1234 Main Street</p>
-            <p>Anytown, USA 12345</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Email: info@roostersrafting.com</p>
-        <iframe src="https://www.google.com/maps/" title="google"> Location</iframe>
-        <form action="#" method="POST">
-        <div class="form-group">
-            <h2>Contact Us</h2>
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
-            </div>
-                <button type="submit">Submit</button>
-            </div>
-            </div>
+        <section class="contacts">
+            <h1>Contact Us</h1>
+            <h2>Visit/Call/Text/Email Us @</h2>
+        <p>Roosters Rafting</p>
+        <p>1234 Main Street</p>
+        <p>Kariba, Zimbabwe 12345</p>
+        <p>Phone: (+263) 456-7890</p>
+        <p>Email: info@roostersrafting.com</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243915.53340616552!2d27.783251537775552!3d-17.210044896596656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2szw!4v1684681255122!5m2!1sen!2szw"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </section>
+    <section classs="Employee">
+        <h2>Meet Our Team</h2>
+        <figure>
+        <img src="image/employee1.jpg" alt="Employee 1">
+        <figcaption> Viola Bob Tour Guide </figcaption>
+        <figcaption> Tour Guide</figcaption>
+        </figure>
+        <figure>
+        <img src="image/employee2.jpg" alt="Employee 2">
+        <figcaption> Tawanda George</figcaption>
+        <figcaption> River Guide</figcaption>
+        </figure>
+        <figure>
+        <img src="image/employee3.jpg" alt="Employee 3">
+        <figcaption> Mukoma Johnxo</figcaption>
+        <figcaption> Photographer</figcaption>
+        </figure>
+    </section>
+    
+    <section class="Feedback"> 
+        <form style="display: flex; flex-direction: column;">
+            <label for="name">Please enter your name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="mail">Please enter your email</label>
+            <input type="email" id="mail" name="mail" required>
+            <label for="purpose">General Inquiry</label>
+            <input type="radio" id="purpose" name="purpose">
+            <label for="reservation">Reservation Question</label>
+            <input type="radio"  id="reservation" name="suggestion">
+            <label for="suggestion">Website suggestion</label>
+            <input type="radio" id="suggestion" name="suggestion">
+
+            <label for="message">Enter the message</label>
+            <textarea id="message" name="message" required></textarea>
+            <label for="subscribe">Please subscribe to our newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <button type="submit">Submit Feedback</button>
+
+            
+            
         </form>
+    </section>
     </main>
     <footer>
         <p>Roosters Water Rafting Spot © 2003-2023 |Raphael Shawn Taurai WDD130|</p>

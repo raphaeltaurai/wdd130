@@ -35,28 +35,31 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         </section>
-    <section classs="Employee">
+    <section class="employee">
         <h2>Meet Our Team</h2>
-        <figure>
-        <img src="images/employee1.jpg" alt="Employee 1">
-        <figcaption> Viola Bob Tour Guide </figcaption>
-        <figcaption> Tour Guide</figcaption>
-        </figure>
-        <figure>
-        <img src="images/employee2.jpg" alt="Employee 2">
-        <figcaption> Tawanda George</figcaption>
-        <figcaption> River Guide</figcaption>
-        </figure>
-        <figure>
-        <img src="images/employee3.jpg" alt="Employee 3">
-        <figcaption> Mukoma Johnxo</figcaption>
-        <figcaption> Photographer</figcaption>
-        </figure>
+        <div class="employee-content">
+            <figure>
+            <img src="images/employee1.jpg" alt="Employee 1">
+            <figcaption> Viola Bob Tour Guide </figcaption>
+            <figcaption> Tour Guide</figcaption>
+            </figure>
+            <figure>
+            <img src="images/employee2.jpg" alt="Employee 2">
+            <figcaption> Tawanda George</figcaption>
+            <figcaption> River Guide</figcaption>
+            </figure>
+            <figure>
+            <img src="images/employee3.jpg" alt="Employee 3">
+            <figcaption> Mukoma Johnxo</figcaption>
+            <figcaption> Photographer</figcaption>
+            </figure>
+        </div>
     </section>
     
-    <section class="Feedback"> 
+    <section class="feedback"> 
         <h2>Customer Feedback</h2>
-        <form style="display: flex; flex-direction: column;">
+        <div class="feedback-content">
+        <form>
             <label for="name">Please enter your name:</label>
             <input type="text" id="name" name="name" required>
             <label for="mail">Please enter your email</label>
@@ -67,16 +70,13 @@
             <input type="radio"  id="reservation" name="suggestion">
             <label for="suggestion">Website suggestion</label>
             <input type="radio" id="suggestion" name="suggestion">
-
             <label for="message">Enter the message</label>
             <textarea id="message" name="message" required></textarea>
             <label for="subscribe">Please subscribe to our newsletter</label>
             <input type="checkbox" id="subscribe" name="subscribe">
             <button type="submit">Submit Feedback</button>
-
-            
-            
         </form>
+        </div>
     </section>
     </main>
     <footer>

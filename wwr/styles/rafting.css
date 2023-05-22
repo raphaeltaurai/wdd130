@@ -129,7 +129,7 @@ section, section  {
   position: relative;
   clear: both;
   padding: 1rem;
-  box-shadow: #87416E;
+  box-shadow: 2px 2px 5px rgba(135, 65, 110, 0.938);
 }
 
 .history {

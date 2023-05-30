@@ -95,7 +95,7 @@
   text-shadow: 2px 2px 0px var(--secondary-color);
 }
 
-.hero article {
+.hero h6 {
   display:inline-block;
   position: absolute;
   top: 25%;
@@ -107,19 +107,19 @@
   box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
-.hero article img {
+.hero h6 img {
   float: right;
   width: 25%;
   margin: 0 0 10px 10px;
 }
 
 /*background color and opacity of the article */
-.hero article {
+.hero h6 {
   background-color: rgba(60, 141, 196, 0.411);
   display:block;
 }
 
-.hero article p{
+.hero h6 p{
   color: #feffff;
   font-size: larger;
   font-weight: bolder;

@@ -481,6 +481,46 @@ section.contact .contact-form button:hover {
 .hero .btn:hover {
   background-color: #0062cc;
 }
+
+.home_adventures {
+  background-color: var(--secondary-color);
+  padding: 50px;
+}
+
+.home_adventures h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home_adventures p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.home_adventures h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.home_adventures img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.home_adventures .home-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home_adventures .home-content p {
+  margin-bottom: 0;
+  max-width: 400px;
+  margin-right: 20px;
+}
 /* .employee{
   text-align:center;
   margin-bottom: 50px;

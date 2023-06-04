@@ -485,17 +485,22 @@ section.contact .contact-form button:hover {
 .home_adventures {
   background-color: var(--secondary-color);
   padding: 50px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .home_adventures h2 {
   font-size: 36px;
   margin-bottom: 20px;
+  grid-column: 1 / -1;
 }
 
 .home_adventures p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
+  grid-column: 1 / -1;
 }
 
 .home_adventures h3 {
@@ -511,9 +516,7 @@ section.contact .contact-form button:hover {
 }
 
 .home_adventures .home-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: contents;
 }
 
 .home_adventures .home-content p {
